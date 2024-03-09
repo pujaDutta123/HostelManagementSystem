@@ -1,0 +1,312 @@
+/* styles.css */
+/* Add your CSS styles here */
+
+body {
+    background-color: #eef1f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #4d1414;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.row1, .row1 a{color:#C0BAB6; background-color:#9c1c1c;}
+
+
+#header, #container, #footer{display:block; width:960px; margin:0 auto;}
+
+
+
+/* styles.css */
+body.registration-page {
+    font-family: 'Your Font', Arial, sans-serif; /* Change 'Your Font' to the desired font-family */
+    background-image: url("D://miniproject_5th_sem//630x300.webp"); /* Add the path to your background image */
+    background-size: cover; /* Scale the background image to cover the entire body */
+    background-attachment: fixed; /* Fix the background image in place */
+    margin: 0;
+    padding: 0;
+}
+
+/* Other styles for registration.html here */
+
+
+/* Other styles for registration.html here */
+
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #bdb9d6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: left;
+    color: #e84646;
+}
+
+h2 {
+    text-align: center;
+    color: #f4901e;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #d2344c;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #555;
+}
+
+button {
+    background-color: #ceb12e;
+    color: #8b789e;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #dc9c9c;
+}
+
+/* Style the select dropdown */
+select {
+    appearance: none;
+    background-size: 20px;
+    padding-right: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Add some spacing between form elements */
+.space-between-elements {
+    margin-bottom: 20px;
+}
+
+/* Style the success message */
+.success-message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Main Content */
+#container #intro {
+    width: 100%;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+#container #intro section {
+    width: 100%;
+}
+
+#container #intro section article h2 {
+    margin-bottom: 15px;
+}
+
+#container #intro section article figure ul {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#container #intro section article figure ul li {
+    display: inline-block;
+    margin: 0 25px 0 0;
+}
+
+
+#container #intro section article figure ul li.last {
+    margin: 0;
+}
+
+#container #intro section article figure ul li img {
+    width: 130px;
+    height: 130px;
+    margin: 0;
+    padding: 4px;
+    border: 1px solid #D6D6D6;
+}
+
+#container #intro section article figure figcaption {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Homepage Section */
+#container #homepage {
+    display: block;
+    width: 100%;
+    line-height: 1.6em;
+}
+
+#container #homepage section {
+    margin-bottom: 0;
+}
+
+#container #homepage section h2.title {
+    margin: 0 0 25px 0;
+    padding: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.horizontal-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.horizontal-list li {
+    margin-right: 15px; /* Adjust spacing between images as needed */
+}
+
+.horizontal-list li:last-child {
+    margin-right: 0; /* Remove margin for the last image */
+}
+
+.horizontal-list li img {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #D6D6D6;
+}
+
+
+/* Add this CSS in your styles.css */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust the margin as needed to separate rows */
+}
+
+.column {
+    flex: 1;
+    max-width: 300px; /* Adjust the max-width to control the column width */
+}
+
+.image {
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+/* Media query for responsiveness (adjust as needed) */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Add this CSS in your styles.css */
+
+.back-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    background-color: #0074D9; /* Background color for the link */
+    padding: 5px 15px; /* Padding to create a button-like appearance */
+    border: 2px solid #0056b3; /* Border with a darker shade of blue */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.back-link a {
+    text-decoration: none;
+    color: #fff; /* Text color */
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+/* Add an arrow symbol using a pseudo-element */
+.back-link::before {
+    content: "\2190"; /* Unicode arrow character (left arrow) */
+    margin-right: 5px; /* Spacing between the arrow and text */
+}
+
